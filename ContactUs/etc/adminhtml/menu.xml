@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Smile_ContactUs::appeal"
+             title="Contact us"
+             module="Smile_ContactUs"
+             sortOrder="40"
+             action="smile_contactus/appeal"
+             resource="Smile_ContactUs::appeal" />
+    </menu>
+</config>
